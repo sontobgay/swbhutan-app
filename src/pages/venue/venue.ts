@@ -10,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-feedback',
-  templateUrl: 'feedback.html',
+  selector: 'page-venue',
+  templateUrl: 'venue.html',
 })
-export class FeedbackPage {
+export class VenuePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad FeedbackPage');
+    console.log('ionViewDidLoad VenuePage');
   }
 
 }

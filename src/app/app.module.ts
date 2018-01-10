@@ -15,7 +15,7 @@ import { PrizePage } from "../pages/prize/prize";
 import { RegistrationPage } from "../pages/registration/registration";
 import { OrganiserPage } from "../pages/organiser/organiser";
 import { SponsorPage } from "../pages/sponsor/sponsor";
-import { FeedbackPage } from "../pages/feedback/feedback";
+import { VenuePage } from "../pages/venue/venue";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -30,7 +30,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RegistrationPage,
     OrganiserPage,
     SponsorPage,
-    FeedbackPage,
+    VenuePage,
     AboutPage,
     ContactPage,
     HomePage,
@@ -50,7 +50,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RegistrationPage,
     OrganiserPage,
     SponsorPage,
-    FeedbackPage,
+    VenuePage,
     AboutPage,
     ContactPage,
     HomePage,

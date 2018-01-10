@@ -8,7 +8,7 @@ import { PrizePage } from "../prize/prize";
 import { RegistrationPage } from "../registration/registration";
 import { OrganiserPage } from "../organiser/organiser";
 import { SponsorPage } from "../sponsor/sponsor";
-import { FeedbackPage } from "../feedback/feedback";
+import { VenuePage } from "../venue/venue";
 
 
 @Component({
@@ -24,7 +24,7 @@ export class HomePage {
   registrationPageChild = RegistrationPage;
   organiserPageChild = OrganiserPage;
   sponsorPageChild = SponsorPage;
-  feedbackPageChild = FeedbackPage;
+  venuePageChild = VenuePage;
 
   constructor(public navCtrl: NavController) {
 
