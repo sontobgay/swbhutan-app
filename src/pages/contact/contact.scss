@@ -1,3 +1,11 @@
 page-contact {
 
+    ion-content {
+        //@include linear-gradient(left,$sea-weed);
+        @include linear-gradient(left,$crystal-clear);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+      }
+
 }

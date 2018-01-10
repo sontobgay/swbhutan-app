@@ -1,3 +1,39 @@
 page-home {
 
+    ion-content {
+
+        //@include linear-gradient(left,$jonquil);
+        @include linear-gradient(left, $crystal-clear);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+
+        ion-grid { 
+            ion-card { 
+                width:100% !important; 
+                text-align: center;
+                // margin-left: 0 !important; 
+                // margin-right: 0 !important; 
+                margin: 0 !important;
+                span {
+                    padding: 0 !important;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            } 
+        }
+
+    }
+
+    ion-header {
+        ion-title {
+            span {
+                font-family: 'Raleway-Regular';
+                font-size: 15px;
+                // color: #A04000;
+                font-weight: bold;
+            }
+        }
+    }
+
 }

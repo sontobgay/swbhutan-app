@@ -1,17 +1,161 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
+<ion-header no-border>
+  <ion-navbar color="secondary">
+    <ion-title><span>Startupweekend-Bhutan</span></ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content>
+
+  <!-- <ion-grid justify-content-center height-100>
+    <ion-row padding>
+      <ion-col>
+        <div on-tap="openChildPage(eventPageChild)">
+          <div><ion-icon name="sw-event"></ion-icon></div>
+          <div>Events</div>
+        </div>
+      </ion-col>
+
+      <ion-col>
+        <div on-tap="openChildPage(prizePageChild)">
+            <div><ion-icon name="sw-prize"></ion-icon></div>
+            <div>Prizes</div>
+          </div>
+    </ion-col>
+    </ion-row>
+
+    <ion-row justify-content-center padding>
+      <ion-col>
+        <div on-tap="openChildPage(speakerPageChild)">
+          <div><ion-icon name="sw-speaker"></ion-icon></div>
+          <div>Speakers</div>
+        </div>
+      </ion-col>
+
+      <ion-col>
+          <div on-tap="openChildPage(mentorPageChild)">
+              <div><ion-icon name="sw-speaker"></ion-icon></div>
+              <div>Mentors</div>
+            </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row justify-content-center padding>
+      <ion-col>
+          <div on-tap="openChildPage(registrationPageChild)">
+              <div><ion-icon name="sw-registration"></ion-icon></div>
+              <div>Registration</div>
+            </div>
+      </ion-col>
+      
+      <ion-col>
+          <div on-tap="openChildPage(feedbackPageChild)">
+              <div><ion-icon name="sw-feedback"></ion-icon></div>
+              <div>Feedback</div>
+            </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row justify-content-center padding>
+      <ion-col>
+          <div on-tap="openChildPage(sponsorPageChild)">
+            <div><ion-icon name="sw-startup"></ion-icon></div>
+            <div>Sponsors</div>
+          </div>
+      </ion-col>
+
+      <ion-col>
+          <div on-tap="openChildPage(organiserPageChild)">
+              <div><ion-icon name="sw-website"></ion-icon></div>
+              <div>Organisers</div>
+            </div>
+      </ion-col>
+    </ion-row>
+    
+
+  </ion-grid> -->
+
+  <ion-grid>
+      <ion-row>
+        <ion-col col-6>
+          <ion-card (tap)='openChildPage(eventPageChild)'>
+            <ion-card-content>
+                <div><ion-icon name="sw-event"></ion-icon></div>
+                <span>Events</span>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col col-6>
+            <ion-card (tap)='openChildPage(prizePageChild)'>
+              <ion-card-content>
+                  <div><ion-icon name="sw-prize"></ion-icon></div>
+                  <span>Prizes</span>
+              </ion-card-content>
+            </ion-card>
+        </ion-col>
+    </ion-row>
+
+    <ion-row>
+        <ion-col col-6>
+          <ion-card (tap)='openChildPage(speakerPageChild)'>
+            <ion-card-content>
+                <div><ion-icon name="sw-speaker"></ion-icon></div>
+                <span>Speakers</span>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col col-6>
+            <ion-card (tap)='openChildPage(mentorPageChild)'>
+              <ion-card-content>
+                  <div><ion-icon name="sw-mentor"></ion-icon></div>
+                  <span>Mentors</span>
+              </ion-card-content>
+            </ion-card>
+        </ion-col>
+    </ion-row>
+
+    <ion-row>
+        <ion-col col-6>
+          <ion-card (tap)='openChildPage(registrationPageChild)'>
+            <ion-card-content>
+                <div><ion-icon name="sw-registration"></ion-icon></div>
+                <span>Registration</span>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col col-6>
+            <ion-card (tap)='openChildPage(feedbackPageChild)'>
+              <ion-card-content>
+                  <div><ion-icon name="sw-feedback"></ion-icon></div>
+                  <span>Feedback</span>
+              </ion-card-content>
+            </ion-card>
+        </ion-col>
+    </ion-row>
+
+    <ion-row>
+        <ion-col col-6>
+          <ion-card (tap)='openChildPage(sponsorPageChild)'>
+            <ion-card-content>
+                <div><ion-icon name="sw-sponsor"></ion-icon></div>
+                <span>Sponsors</span>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col col-6>
+            <ion-card (tap)='openChildPage(organiserPageChild)'>
+              <ion-card-content>
+                  <div><ion-icon name="sw-organiser"></ion-icon></div>
+                  <span>Organisers</span>
+              </ion-card-content>
+            </ion-card>
+        </ion-col>
+    </ion-row>
+
+  </ion-grid>
+ 
+
 </ion-content>

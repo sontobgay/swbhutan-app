@@ -1,0 +1,11 @@
+page-event {
+
+    ion-content {
+         //@include linear-gradient(left,$jonquil);
+         @include linear-gradient(left,$crystal-clear);
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         background-size: cover;
+    }
+
+}
